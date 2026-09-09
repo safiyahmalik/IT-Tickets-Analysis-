@@ -4,7 +4,7 @@ A self-directed data analyst project simulating an internal IT helpdesk system: 
 
 ## Overview
 
-This project models how an IT support team tracks and analyzes tickets raised by employees (broken hardware, software issues, network problems, access requests, etc.) — the kind of system real tools like Zendesk, Freshservice, or Jira Service Desk power under the hood.
+This project models how an IT support team tracks and analyzes tickets raised by employees (broken hardware, software issues, network problems, access requests, etc.) - the kind of system real tools like Zendesk, Freshservice, or Jira Service Desk power under the hood.
 
 ## Tech Stack
 
@@ -45,9 +45,9 @@ Built in Superset, the dashboard includes:
 - SLA breach rate by category and priority
 - Agent workload and performance table
 
-![Dashboard overview - KPIs and daily volume](screenshots/dashboard-1-overview.png)
-![Dashboard - category, status, and SLA breach rate](screenshots/dashboard-2-category-sla.png)
-![Dashboard - SLA breach detail and agent performance](screenshots/dashboard-3-agents.png)
+![Dashboard overview - KPIs and daily volume](screenshots/Dashboard-1-overview.png)
+![Dashboard - category, status, and SLA breach rate](screenshots/Dashboard-2-category-sla.png)
+![Dashboard - SLA breach detail and agent performance](screenshots/Dashboard-3-agents.png)
 
 ## Key Findings
 
@@ -58,14 +58,14 @@ Built in Superset, the dashboard includes:
 
 ## Project Files
 
-- `01_schema.sql` — database schema (MySQL version)
-- `02_seed_data.sql` — synthetic ticket data (MySQL version)
-- `03_views.sql` — analytical views (MySQL version)
-- `03_views_sqlite.sql` — just the analytical views (SQLite version)
-- `sqlite_full_setup.sql` — full schema + data + views in one script, SQLite version
-- `build_sqlite.py` — Python script that generates the synthetic data and builds the SQLite database from scratch
-- `it_tickets.db` — the ready-to-use SQLite database
-- `screenshots/` — dashboard screenshots referenced above
+- `01_schema.sql` - database schema (MySQL version)
+- `02_seed_data.sql` - synthetic ticket data (MySQL version)
+- `03_views.sql` - analytical views (MySQL version)
+- `03_views_sqlite.sql` - just the analytical views (SQLite version)
+- `sqlite_full_setup.sql` - full schema + data + views in one script, SQLite version
+- `build_sqlite.py` - Python script that generates the synthetic data and builds the SQLite database from scratch
+- `it_tickets.db` - the ready-to-use SQLite database
+- `screenshots/` - dashboard screenshots referenced above
 
 ## Running It Yourself
 
@@ -77,5 +77,5 @@ Built in Superset, the dashboard includes:
 ## What I'd Do Next
 
 - Add row-level access control (agents should only see their own team's tickets)
-- Build a "self-service candidate" view — recurring, low-complexity tickets that could be automated or moved to a knowledge base
+- Build a "self-service candidate" view - recurring, low-complexity tickets that could be automated or moved to a knowledge base
 - Add a time-series forecast for ticket volume to inform staffing decisions
