@@ -45,9 +45,9 @@ Built in Superset, the dashboard includes:
 - SLA breach rate by category and priority
 - Agent workload and performance table
 
-![Dashboard overview - KPIs and daily volume](screenshots/dashboard-1-overview.png)
-![Dashboard - category, status, and SLA breach rate](screenshots/dashboard-2-category-sla.png)
-![Dashboard - SLA breach detail and agent performance](screenshots/dashboard-3-agents.png)
+![Dashboard overview - KPIs and daily volume](screenshots/Dashboard-1-overview.png)
+![Dashboard - category, status, and SLA breach rate](screenshots/Dashboard-2-category-sla.png)
+![Dashboard - SLA breach detail and agent performance](screenshots/Dashboard-3-agents.png)
 
 ## Key Findings
 
